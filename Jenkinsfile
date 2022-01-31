@@ -14,7 +14,7 @@ pipeline {
     }
     stage('Run Image') {
          steps {
-         sh 'docker run -p 8000:8000 face_mask'
+         sh 'docker run -p 8000:8000 flask_app'
          }
     }
     stage('Testing'){
