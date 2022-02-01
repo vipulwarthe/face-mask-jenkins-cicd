@@ -57,6 +57,6 @@ def upload():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=8000,debug=True)
+    app.run(host="0.0.0.0", port=8000)
   #  Start the Flask server in a new thread
 #   threading.Thread(target=app.run, kwargs={"use_reloader": False}).start()
